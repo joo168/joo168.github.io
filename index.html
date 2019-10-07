@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yujoohyun</title>
+    <title>유주현의 포트폴리오입니다!</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -49,10 +50,11 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Yu Joo Hyun</h1>
+            <h2>developer</h2>
+<!--          <a href="#" class="btn-rounded-white">Download Resume</a>
         </div>
+-->
         <!-- End #lead-content -->
 
         <div id="lead-overlay"></div>
@@ -73,7 +75,7 @@
                     <h2 class="heading">About Me</h2>
                 </div>
                 <div class="col-md-8">
-                    <p>
+                    <p font-family: 'Noto Serif KR', serif;>
                         <b>안녕하세요. 개발자로서의 커리어를 새롭게 쌓아가고 싶은 유주현입니다.</b><br>
 			   저는 대학교에서 무역학을 전공하며 세계 속에서 국가와 산업이 흘러가는 흐름을 주로 배웠습니다.
 			   글로벌화에 따라, 국가적 차원이나 산업적 차원에서 비즈니스의 현황과 미래를 알아보았습니다.
@@ -124,7 +126,7 @@
             </ul>
         </div>
         <!-- End .education-block -->
-	-->
+	
     </div>
     <!-- End #education -->
 
@@ -142,7 +144,7 @@
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="project1">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -158,7 +160,7 @@
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="project2">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -171,31 +173,12 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>PHP</li>
             <li>JavaScript</li>
-            <li>Python</li>
             <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
             <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
             <li>Ruby on Rails</li>
         </ul>
     </div>
@@ -240,6 +223,13 @@
                 <textarea name="message" placeholder="Your message" required></textarea>
                 <button type="submit">Send</button>
             </form>
+		
+	    <form method="POST" action="https://formspree.io/xarebekm">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
         </div>
         <!-- End #contact-form -->
     </div>
@@ -248,17 +238,18 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-5 copyright">
+                <!--<div class="col-sm-5 copyright">
                     <p>
                         Copyright &copy; 2017 YOUR NAME
                     </p>
                 </div>
+		-->
                 <div class="col-sm-2 top">
                     <span id="to-top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
                 </div>
-                <div class="col-sm-5 social">
+                <!--<div class="col-sm-5 social">
                     <ul>
                         <li>
                             <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -280,6 +271,7 @@
                         </li>
                     </ul>
                 </div>
+		-->
             </div>
         </div>
     </footer>
